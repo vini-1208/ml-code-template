@@ -1,0 +1,30 @@
+
+INPUT_PATH: C:\Users\vinita.phadke\OneDrive - Fractal Analytics Pvt. Ltd\Documents\Fractal\SKU\Knowledge Graph Applications\recommender system\knowledge_graphs\data #change this
+INPUT_FILE_EMBEDDINGS: embeddings_multi_relation.csv #change this
+
+MOVIES_MAT_COLS: 
+    - n.identity 
+    - n.properties.imdbRating
+    - n.properties.revenue
+
+MOVIES_KEY_ID:
+    - n.identity
+
+FEATURE_TYPE: combined #change this
+#valid options: baseline, embedding, combined
+
+MODEL_VERSION: v4 #change this
+
+MODEL_PARAMS:
+    num_neighbors: 1000
+    sim_threshold: 0.4
+    rating_method: 'weighted_avg'
+
+TOPN_RANKING: 15
+
+MODEL_LOGPATH: C:\Users\vinita.phadke\OneDrive - Fractal Analytics Pvt. Ltd\Documents\Fractal\SKU\Knowledge Graph Applications\recommender system\knowledge_graphs\logs #change this
+
+OUTPUT_PATH: C:\Users\vinita.phadke\OneDrive - Fractal Analytics Pvt. Ltd\Documents\Fractal\SKU\Knowledge Graph Applications\recommender system\knowledge_graphs\data\final recommendations #change this
+
+MODEL_EVAL_PATH: C:\Users\vinita.phadke\OneDrive - Fractal Analytics Pvt. Ltd\Documents\Fractal\SKU\Knowledge Graph Applications\recommender system\knowledge_graphs\data\final recommendations\evaluation #change this
+
