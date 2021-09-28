@@ -1,4 +1,5 @@
 This repository contains core implementation of ML life cycle equipped with standardized coding guidelines and best practices for ML architecture and processes.
+P.S currently the codebase is in WIP. Will continue to develop this repository over time.
 
 Motivation:
 ----
