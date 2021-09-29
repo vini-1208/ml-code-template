@@ -10,9 +10,9 @@ Due to this ad-hoc nature of codebase, it becomes challenging to move core imple
 Solution:
 ---
 Idea is to treat every ML code as a software - following standard software design principles right from proof-of-concept work until the code reaches production. 
-This codebase is a centralized repository solving common ML problems in an efficient and reproducible way thereby saving development time and effort.
+This codebase is a centralized repository solving common ML lifecycle problems in an efficient and reproducible way thereby saving development time and effort.
 
-The codebase aims to address some of the common ML challenges as below:
+The codebase aims to address some of the common ML lifecycle challenges as below:
 1. resolve inconsistent code practices - naming conventions, folder structure, function names
 2. ensure standard ML workflows are implemented ensuring quality output
 3. shipping ML core implementation from exploration to production
